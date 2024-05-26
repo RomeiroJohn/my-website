@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1">
+        <title>Jonathan</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="title"><span>John</span></h1>
+            <nav>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    class="close" viewBox="0 0 50 50">
+                    <path
+                        d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                </svg>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Projects</a></li>
+                </ul>
+
+            </nav>
+            <svg class="menu" viewBox="0 0 24 24"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18L20 18" stroke="#000000" stroke-width="2"
+                    stroke-linecap="round" />
+                <path d="M4 12L20 12" stroke="#000000" stroke-width="2"
+                    stroke-linecap="round" />
+                <path d="M4 6L20 6" stroke="#000000" stroke-width="2"
+                    stroke-linecap="round" />
+            </svg>
+
+        </header>
+
+        <main>
+            <section class="wrapper">
+                <div class="hero">
+                    <img class="hero-img" src="assets/heroImg.svg"
+                        alt="computer typing codes" />
+
+                    <div class="hero-content">
+                        <div class="hero-description">
+                            <h1>Full Stack Developer</h1>
+                            <p>Hello 👋, i am Jonathan. I’m a Full Stack
+                                developer.</p>
+
+                        </div>
+                        <div class="hero-quote">
+                            <p>"You don't have to see the whole staircase, just take the first step"
+                                - Martin Luther King Jr.</p>
+                        </div>
+                        <div class="tecnologies">
+                            <img src="assets/htmlIcon.svg" alt="html icon" />
+                            <img src="assets/cssIcon.svg" alt="css icon" />
+                            <img src="assets/JsIcon.svg"
+                                alt="javascript icon" />
+                            <img src="assets/ReactIcon.svg" alt="react icon" />
+                            <img src="assets/NextIcon.svg" alt="next icon" />
+                            <img src="assets/TSIcon.svg"
+                                alt="typescript icon" />
+                            <img src="assets/ExpressIcon.svg"
+                                alt="express icon" />
+                            <img src="assets/PrismaIcon.svg"
+                                alt="prisma icon" />
+                            <img src="assets/TailwindIcon.svg"
+                                alt="tailwind icon" />
+                            <img src="assets/DjangoIcon.svg"
+                                alt="django icon" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="under-construction ">
+                <h2>🛠 This portfolio is under construction 🪚</h2>
+            </section>
+            <section class="wrapper">
+                <div class="about-me">
+                    <h1>About me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed
+                        do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint
+                        occaecat cupidatat non proident, sunt in culpa qui
+                        officia
+                        deserunt mollit anim id est laborum.</p>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <h1>John</h1>
+            <div class="socials">
+                <img src="/assets/facebookIcon.svg" alt="facebook icon" />
+                <img src="assets/instagramIcon.svg" alt="instagram icon" />
+                <img src="assets/githubIcon.svg" alt="githubIcon" />
+            </div>
+        </footer>
+
+        <script>
+            let menu = document.querySelector('.menu')
+            let closeBtn = document.querySelector('.close')
+            let nav = document.querySelector('nav')
+
+            menu.addEventListener('click', ()=> {
+                nav.classList.add('activeNav')
+            })
+            
+            closeBtn.addEventListener('click', ()=> {
+                nav.classList.remove('activeNav')
+            })
+        </script>
+    </body>
+</html>
